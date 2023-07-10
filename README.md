@@ -11,7 +11,7 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 
-Make sure to replace `<repository-url>` with the actual URL of your Git repository and `<repository-directory>` with the actual path.
+Make sure to replace `<repository-url>` with the actual URL of Git repository and `<repository-directory>` with the actual path.
 
 ## Visual Studio Code Configuration
 
@@ -23,11 +23,11 @@ The `settings.json` file contains workspace-specific settings for Visual Studio 
 
 To use the settings provided in this project:
 
-    1. Open your project in Visual Studio Code.
-    2. Go to the `.vscode` folder in your project directory.
-    3. If the `settings.json` file does not exist, create a new file and name it `settings.json`.
-    4. Copy the provided settings from `.vscode/settings.json` file in the repository into your `settings.json` file.
-    5. Customize the settings according to your preferences.
+1. Open your project in Visual Studio Code.
+2. Go to the `.vscode` folder in your project directory.
+3. If the `settings.json` file does not exist, create a new file and name it `settings.json`.
+4. Copy the provided settings from `.vscode/settings.json` file in the repository into your `settings.json` file.
+5. Customize the settings according to your preferences.
 
 For more information on configuring workspace settings in Visual Studio Code, refer to the <a href="https://code.visualstudio.com/docs/getstarted/settings">official documentation</a>.
 
@@ -37,11 +37,11 @@ The `extension.json` file allows you to define recommended extensions for your w
 
 To use the recommended extensions provided in this project:
 
-    1. Open your project in Visual Studio Code.
-    2. Go to the `.vscode` folder in your project directory.
-    3. If the `extension.json` file does not exist, create a new file and name it `extension.json`.
-    4. Copy the provided content from `.vscode/extension.json` file in the repository into your `extension.json` file.
-    5. Customize the `recommendations` section by adding or removing extension IDs as needed.
+1. Open your project in Visual Studio Code.
+2. Go to the `.vscode` folder in your project directory.
+3. If the `extension.json` file does not exist, create a new file and name it `extension.json`.
+4. Copy the provided content from `.vscode/extension.json` file in the repository into your `extension.json` file.
+5. Customize the `recommendations` section by adding or removing extension IDs as needed.
 
 For more information on using `extension.json` to recommend extensions in Visual Studio Code, refer to the <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions">official documentation</a>.
 
