@@ -1,0 +1,111 @@
+{
+    // General Workspace Settings
+    "editor.renderWhitespace": "all",
+    "editor.showFoldingControls": "always",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Consolas', 'Courier New', 'monospace'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.accessibilitySupport": "off",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.parameterHints.enabled": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    // Formatting and Linting
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // Workspace Recommendations
+    "workbench.editor.showTabs": true,
+    "workbench.editor.tabCloseButton": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.tree.indent": 16,
+    // Other Workspace Preferences
+    "explorer.autoReveal": false,
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    // Other settings
+    "diffEditor.ignoreTrimWhitespace": false,
+    // File settings
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/.cache": true
+    },
+    "search.exclude": {
+        "**/vendor": true,
+        "**/node_modules": true,
+        "*.min.js": true,
+        "*.min.css": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "window.zoomLevel": 0,
+    // Extension: Git
+    "git.rebaseWhenSync": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.enableCommitSigning": false,
+    "git.automaticRepositoryDetection": true,
+    // JS
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // JSON
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // Extension: Prettier
+    "prettier.requireConfig": true,
+    "prettier.configPath": ".vscode/.prettierrc.json",
+    "prettier.ignorePath": ".vscode/.prettierignore",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Extension: ESLint
+    "eslint.format.enable": true,
+    "eslint.options": {
+        "overrideConfigFile": ".vscode/.eslintrc.json"
+    },
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    // Extension: npm
+    "npm.packageManager": "yarn",
+}

@@ -1,0 +1,104 @@
+{
+    // Formatting and Code Quality
+    "recommendations": [
+        // Prettier
+        "esbenp.prettier-vscode",
+        // EditorConfig
+        "editorconfig.editorconfig",
+        // Auto Close Tag
+        "formulahendry.auto-close-tag",
+        // Auto Rename Tag
+        "formulahendry.auto-rename-tag",
+        // ESLint
+        "dbaeumer.vscode-eslint",
+        // Yarn
+        "gamunu.vscode-yarn",
+        // YAML
+        "redhat.vscode-yaml",
+        // Code Spell Checker
+        "streetsidesoftware.code-spell-checker",
+        // TypeScript TSLint Plugin
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        // Live Server
+        "ritwickdey.LiveServer",
+        // Color Info
+        "bierner.color-info",
+        // Compare Helper
+        "keewek.compare-helper",
+        // dotenv
+        "mikestead.dotenv",
+        // CSV Editor
+        "janisdd.vscode-edit-csv",
+        // Excel Viewer
+        "grapecity.gc-excelviewer",
+
+        // GitHub Pull Requests
+        "github.vscode-pull-request-github",
+        // GitLens
+        "eamodio.gitlens",
+
+        // Sass (Indented)
+        "syler.sass-indented",
+        // SCSS
+        "mrmlnc.vscode-scss",
+        // HTML CSS Support
+        "ecmel.vscode-html-css",
+        // HTML CSS Class Completion
+        "zignd.html-css-class-completion",
+        // Tailwind CSS IntelliSense
+        "bradlc.vscode-tailwindcss",
+
+        // PHP IntelliSense
+        "bmewburn.vscode-intelephense-client",
+        // PHP Intellisense
+        "zobo.php-intellisense",
+
+        // React Snippets
+        "dsznajder.es7-react-js-snippets",
+        // ESLint
+        "dbaeumer.vscode-eslint",
+        // Stylelint
+        "stylelint.vscode-stylelint",
+        // Styled Components
+        "jpoissonnier.vscode-styled-components",
+        // React Native Tools
+        "msjsdiag.vscode-react-native",
+
+        // Node.js Extension Pack
+        "waderyan.nodejs-extension-pack",
+        // NPM Script Runner
+        "eg2.vscode-npm-script",
+        // Prettier Now
+        "remimarsal.prettier-now",
+        // Nodemon
+        "nodemon.nodemon",
+
+        // TypeORM
+        "typeorm.vscode-typeorm",
+
+        // Docker
+        "ms-azuretools.vscode-docker",
+        // Remote Containers
+        "ms-vscode-remote.remote-containers",
+
+        // Remote SSH
+        "ms-vscode-remote.remote-ssh",
+        // Remote SSH Edit
+        "ms-vscode-remote.remote-ssh-edit",
+        // Remote Explorer
+        "ms-vscode.remote-explorer",
+
+        // Material Icon Theme
+        "pkief.material-icon-theme",
+        // Path Intellisense
+        "christian-kohler.path-intellisense",
+        // Indent Rainbow
+        "oderwat.indent-rainbow",
+        // Prettify JSON
+        "mohsen1.prettify-json",
+        // Python
+        "ms-python.python",
+        // Visual Studio IntelliCode
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
