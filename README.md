@@ -1,4 +1,4 @@
-# CoreZI VSCode
+# VSCode Settings
 
 This repo contains default settings for VSCode application and necessary extensions for VSCode application.
 
